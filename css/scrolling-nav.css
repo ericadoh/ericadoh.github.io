@@ -31,37 +31,71 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
-.intro-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
-
-.festival-section {
-    height: 100%;
+.selection-section {
+    /*height: 100%;*/
+    height: 500px;
     padding-top: 150px;
     text-align: center;
     background: #eee;
 }
 
 .about-section {
-    height: 100%;
+    height: 400px;
     padding-top: 150px;
     text-align: center;
     background: #fff;
+}
+
+.presenters-section {
+    height: 500px;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+
+.sponsors-section {
+    height: 500px;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+}
+
+.footer {
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
 }
 
 .schedule-section {
     height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
-
-.sponsors-section {
-    height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     background: #eee;
+}
+
+.selection-container {
+    background-color: #d3d3d3;
+    height: 100px;
+    outline: 1px solid black;
+}
+
+.presenter-image {
+    background-color: #d3d3d3;
+    height: 300px;
+}
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+ .navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
 }
