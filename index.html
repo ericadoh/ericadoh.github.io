@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
 
+    <!-- IFF CSS -->
+    <link href="css/iff.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -28,7 +31,7 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -40,9 +43,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">
-                    iff
+                <a class="navbar-brand page-scroll hidden-xs" href="index.html">
+                    <img src="assets/logo_500x500.png" alt="iff" width="70px" height="70px">
                 </a>
+                <a class="navbar-brand page-scroll visible-xs" href="index.html">
+                    <h3>iff</h3>
+                </a>
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -75,77 +82,95 @@
     </nav>
 
     <!-- Intro Section -->
-    <section id="intro" class="selection-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>official selection</h1>
-                </div>
+    <section id="intro" class="intro-section"> 
+        <div class="col-lg-12">
+            <h1>april 6-12, 2016</h1>
+            <br/>
+            <div id="intro-desc"><p>Ivy Film Festival is the largest student-run film festival in the world hosted annually at Brown University.</p></div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section id="intro" class="news-section">
+        <h1>latest news</h1>
+        <div class="news-item">
+            <div class="news-date">
+                <h4>2.12.16</h4>
+            </div>
+            <div class="news-image">
+                <img src="assets/latest1.jpg" width="300px" height="400px">
+            </div>
+            <div class="news-desc">
+                <p>Robert De Niro will be coming to Ivy Film Festival 2016!</p>
+            </div>
+        </div>
+
+        <div class="news-item news-item-second">
+            <div class="news-date">
+                <h4>2.12.16</h4>
+            </div>
+            <div class="news-image">
+                <img src="assets/latest1.jpg" width="300px" height="400px">
+            </div>
+            <div class="news-desc">
+                <p><a href="">How To Be Single Advance Screening (Warner Bros)</a></p>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="intro" class="about-section">
+    <section id="about" class="about-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Ivy Film Festival is a student-led organization dedicated to showcasing the diverse work of student filmmakers and screenwriters. Through its official selection and events, the Festival builds a global community of filmmakers and audiences, fostering the next generation’s dialogue around film.</p>
-                </div>
+            <div class="col-lg-12">
+                <h1>about us </h1>
+                <br/>
+                <p>Ivy Film Festival is a student-led organization dedicated to showcasing the diverse work of student filmmakers and screenwriters. Through its official selection and events, the Festival builds a global community of filmmakers and audiences, fostering the next generation’s dialogue around film.</p>
+                <p><a href="">Learn more</a></p>
             </div>
         </div>
     </section>
 
     <!-- Presenters Section -->
-    <section id="intro" class="presenters-section">
+    <section id="submit" class="submit-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>2016 presenters</h1>
-                </div>
+            <div class="col-lg-12">
+                <p>We are currently accepting films, <br>
+                    TV pilots and screenplays!*</p>
+                <div id="submit-button">submit</div>
+                <br/><br/>
+                <div id="submit-deadline"><p>*Deadline: March 1, 2016</p></div>
             </div>
         </div>
     </section>
 
     <!-- Sponsors Section -->
-    <section id="intro" class="sponsors-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>sponsors</h1>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-4 top-buffer">
-                            <div class="visible-md visible-lg text-warning presenter-image">Medium Devices!</div>
-                            <div class="visible-xs visible-sm text-danger presenter-image">Extra Small and Small Devices</div>
-                        </div>
-                        <div class="col-xs-12 col-md-4 top-buffer">
-                            <div class="visible-md visible-lg text-warning presenter-image">Medium Devices!</div>
-                            <div class="visible-xs visible-sm text-danger presenter-image">Extra Small and Small Devices</div>
-                        </div>
-                        <div class="col-xs-12 col-md-4 top-buffer">
-                            <div class="visible-md visible-lg text-warning presenter-image">Medium Devices!</div>
-                            <div class="visible-xs visible-sm text-danger presenter-image">Extra Small and Small Devices</div>
-                        </div>     
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="sponsors" class="sponsors-section">
+        <h1>sponsors</h1>
+        <div class="sponsor-image"><img src="assets/trojan_300.jpg"></div>
+        <div class="sponsor-image"><img src="assets/trojan_300.jpg"></div>
+        <div class="sponsor-image"><img src="assets/trojan_300.jpg"></div>
+        <p><a href="">Want to become a sponsor?</a></p>    
     </section>
 
     <!-- Footer -->
-    <section id="intro" class="footer">
+    <section id="footer" class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-8 top-buffer">
-                    <p>Ivy Film Festival is a student-led organization dedicated to showcasing the diverse work of student filmmakers and screenwriters. Through its official selection and events, the Festival builds a global community of filmmakers and audiences, fostering the next generation’s dialogue around film.</p>
-                </div>
-                <div class="col-xs-12 col-md-4 top-buffer">
-                    <p>facebook</p>
-                    <p>instagram</p>
-                    <p>medium</p>
-                    <p>vimeo</p>
-                </div>
+            <div id="footer-desc">
+                <p>The Ivy Film Festival (IFF) is among the largest student-run film festivals
+                    in the world and offers students from domestic and foreign universties
+                    a venue to exhibit their work.</p>
             </div>
+            <div id="footer-contact">
+                <p>Get in touch with us by sending an email to hello@ivyfilmfestival.com.</p>
+            </div>
+            <div id="footer-media">
+                <p>facebook</p>
+                <p>instagram</p>
+                <p>medium</p>
+                <p>vimeo</p>
+            </div>
+            <hr>
+            <p id="copyright">Copyright &#169; Ivy Film Festival.</p>
         </div>
     </section>
 
