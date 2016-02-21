@@ -262,24 +262,25 @@ section {
 }
 
 @media (min-width: 767px) {
+	
 	#footer-desc {
-		width: 300px;
+		width: 25%;
+		margin-right: 10%;
 		vertical-align: top;
 		float: left;
 	}
 
 	#footer-contact {
-		padding-left: 80px;
-		width: 300px;
+		width: 25%;
 		vertical-align: top;
+		margin-right: 10%;
 		padding-top: 20px;
 		float: left;
 	}
 
 	#footer-media {
-		padding-left: 40px;
-		width: 300px;
-		float: right;
+		width: 25%;
+		float: left;
 		vertical-align: top;
 		padding-top: 20px;
 	}
