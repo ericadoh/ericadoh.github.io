@@ -87,6 +87,7 @@
 
 section {
 	height: 600px;
+	width: 100%;
 }
 
 .intro-section {
@@ -173,6 +174,7 @@ section {
 /* ABOUT SECTION */ 
 
 .about-section {
+	height: 500px;
     text-align: left;
     background: #fff;
 }
@@ -183,6 +185,7 @@ section {
     padding-top: 50px;
     text-align: center;
     background: #fdf1ec;
+    height: 400px;
 }
 
 .submit-section p {
@@ -200,18 +203,30 @@ section {
     border-width: 8px 8px 8px 8px;
 	border-color: #EC5536;
 	display: inline-block;
-	margin-top: 65px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-#submit-deadline {
-	-webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    transform-origin: 100% 100%;
-    display: block;
-	float: right;
+@media (min-width: 767px) {
+
+	.submit-section {
+	    height: 500px;
+	}
+
+	#submit-deadline {
+		-webkit-transform: rotate(90deg);
+	    -moz-transform: rotate(90deg);
+	    -o-transform: rotate(90deg);
+	    -ms-transform: rotate(90deg);
+	    transform: rotate(90deg);
+	    transform-origin: 100% 100%;
+	    display: block;
+		float: right;
+	}
+
+	#submit-button {
+		margin-top: 65px;
+	}
 }
 
 /* SPONSOR IMAGE */
