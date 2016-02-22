@@ -86,7 +86,6 @@
 /* INTRO */
 
 section {
-	height: 600px;
 	width: 100%;
 }
 
@@ -372,9 +371,10 @@ a:active {
 	}
 }
 
+/*
 @media (max-width: 768px) {
 	html, body {
 		width: auto !important;
 		overflow-x: hidden !important;
 	}
-}
+}*/
