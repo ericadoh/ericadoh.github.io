@@ -36,34 +36,6 @@
 	font-family: "Kazimir Light", Georgia, serif;
 }
 
-/* INTRO */
-
-section {
-	height: 600px;
-}
-
-.intro-section {
-    margin-top: 50px;
-    text-align: center;
-    background: #eee;
-    background-image: url('../assets/home1.jpg');
-}
-
-@media (min-width: 767px) {
-    .intro-section {
-    	margin-top: 80px;
-    }
-}
-
-.intro-section h1 {
-    color: #EC5536;
-}
-
-#intro-desc {
-    width: 400px;
-    display: inline-block;
-}
-
 /*!
  * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -109,6 +81,35 @@ section {
 .navbar a {
 	text-decoration: none;
     border-bottom: 0px;
+}
+
+/* INTRO */
+
+section {
+	height: 600px;
+}
+
+.intro-section {
+    height: 500px;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+    background-image: url('../assets/home1.jpg');
+}
+
+@media (min-width: 767px) {
+    .intro-section {
+    	margin-top: 80px;
+    }
+}
+
+.intro-section h1 {
+    color: #EC5536;
+}
+
+#intro-desc {
+    width: 400px;
+    display: inline-block;
 }
 
 /* LATEST NEWS */
@@ -179,6 +180,8 @@ section {
 /* SUBMIT SECTION */
 
 .submit-section {
+    padding-top: 50px;
+    text-align: center;
     background: #fdf1ec;
 }
 
@@ -262,7 +265,7 @@ section {
 }
 
 @media (min-width: 767px) {
-	
+
 	#footer-desc {
 		width: 25%;
 		margin-right: 10%;
@@ -351,5 +354,11 @@ a:active {
 @media (min-width: 767px) {
 	.container {
 		width: 90%;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		width: 100%;
 	}
 }
