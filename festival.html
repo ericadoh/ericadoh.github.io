@@ -9,13 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Festival</title>
+    <title>Ivy Film Festival</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- IFF CSS -->
+    <link href="css/iff.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,7 +31,7 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -40,7 +43,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">iff</a>
+                <a class="navbar-brand page-scroll hidden-xs" href="index.html">
+                    <img src="assets/logo_500x500.png" alt="iff" width="70px" height="70px">
+                </a>
+                <a class="navbar-brand page-scroll visible-xs" href="index.html">
+                    <h3>iff</h3>
+                </a>
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,16 +60,19 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="about.html">about</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="submit.html">submit</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="festival.html">the festival</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">about</a>
+                        <a class="page-scroll" href="sponsors.html">sponsors</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#schedule">schedule</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#sponsors">sponsors</a>
+                        <a class="page-scroll" href="events.html">events</a>
                     </li>
                 </ul>
             </div>
@@ -69,105 +81,140 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>official selection</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#festival">Click Me to Scroll Down!</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- About Section -->
-    <section id="festival" class="festival-section">
-        <div class="container">
+    <section>
+        <div class="container submissions-section">
+            <h1>submissions</h1>
+            <br><br>
+            <p>We are accepting films, TV pilots, and screenplays!  Submissions are processed
+                through Withoutabox. Withoutabox account holders get a $5 discount on all
+                submission fees. Email programming@ivyfilmfestival.com with any questions
+                about submissions or submission fees, and email directory@ivyfilmfestival.com
+                with any general questions about the festival itself.</p>
+            <p>The Ivy Film Festival accepts submissions for student-made films and screenplays
+                in the following categories:</p>
+
             <div class="row">
-                <div class="col-lg-12">
-                    <h3>presenters</h3>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-4">
-                            <div class="visible-lg text-success presenter-image">Large Devices!</div>
-                            <div class="visible-md text-warning presenter-image">Medium Devices!</div>
-                            <div class="visible-xs visible-sm text-danger presenter-image">Extra Small and Small Devices</div>
-                        </div>
-                        <div class="col-xs-12 col-md-4">
-                            <div class="visible-lg text-success presenter-image">Large Devices!</div>
-                            <div class="visible-md text-warning presenter-image">Medium Devices!</div>
-                            <div class="visible-xs visible-sm text-danger presenter-image">Extra Small and Small Devices</div>
-                        </div>
-                        <div class="col-xs-12 col-md-4">
-                            <div class="visible-lg text-success presenter-image">Large Devices!</div>
-                            <div class="visible-md text-warning presenter-image">Medium Devices!</div>
-                            <div class="visible-xs visible-sm text-danger presenter-image">Extra Small and Small Devices</div>
-                        </div>     
-                    </div>
+                <div class="col-md-6"><h3>films</h3></div>
+                <div class="col-md-6"><h3>screenplays</h3></div>
+            </div>
 
-                    <h3>48 hour competition winner</h3>
-                    <div class="row">
-                        <div class="col-xs-4 col-md-12">
-                            <div class="visible-lg text-success presenter-image">Large Devices!</div>
-                            <div class="visible-md text-warning presenter-image">Medium Devices!</div>
-                            <div class="visible-xs visible-sm text-danger presenter-image">Extra Small and Small Devices</div>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-md-6"><p>US Undergraduate – Drama</p></div>
+                <div class="col-md-6"><p>Feature-Length Screenplays</p></div>
+            </div>
 
-                    <h3>48 hour competition winner</h3>
-                    <div class="row">
-                        <div class="col-xs-4 col-md-12">
-                            <div class="visible-lg text-success presenter-image">Large Devices!</div>
-                            <div class="visible-md text-warning presenter-image">Medium Devices!</div>
-                            <div class="visible-xs visible-sm text-danger presenter-image">Extra Small and Small Devices</div>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-md-6"><p>US Undergraduate – Comedy</p></div>
+                <div class="col-md-6"><p>Television Pilots (30- &amp; 60- minute formats)</p></div>
+            </div>
 
-                </div>
+            <div class="row">
+                <div class="col-md-6"><p>US Undergraduate – Documentary</p></div>
+                <div class="col-md-6"><p>Undergraduate Short</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6"><p>US Undergraduate – Animation</p></div>
+                <div class="col-md-6"><p>Screenplays</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6"><p>US Undergraduate – Experimental</p></div>
+                <div class="col-md-6"><p>Graduate Short Screenplays</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6"><p>US Graduate</p></div>
+                <div class="col-md-6"><p></p></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6"><p>International</p></div>
+                <div class="col-md-6"><p></p></div>
+            </div>
+
+            <img id="gate" src="assets/gates.jpg">
+
+    </section>
+
+    <section>
+        <div class="container">
+            <p>Submissions are accepted online through Withoutabox.com (w URL). Filmmakers and screenwriters must create their own basic Withoutabox accounts to submit. This process is free and easy – simply follow the “Submit” link on the bottom of this page. Submitters can also elect for “premium” Withoutabox accounts and receive a $5 discount on their entry fees. Fees are identical for all domestic film, international film, and screenplay competitions.</p>
+
+            <p>To be eligible for consideration,your submission must have been created while you were enrolled at a college/university.</p>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section id="fees-and-deadlines">
+        <div class="container">
+            <h3>fees and deadlines</h3>
+
+            <div class="row header-row">
+                <div class="col-md-4"></div>
+                <div class="col-md-2"><p>1st film</p></div>
+                <div class="col-md-2"><p>Add'l films</p></div>
+                <div class="col-md-2"><p>1st screenplay</p></div>
+                <div class="col-md-2"><p>Add'l screenplay</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4"><p>Earlybird deadline<br><span class="deadline">Oct. 15, 2015</span></p></div>
+                <div class="col-md-2"><p class="cost">$10</p></div>
+                <div class="col-md-2"><p class="cost">$7</p></div>
+                <div class="col-md-2"><p class="cost">$10</p></div>
+                <div class="col-md-2"><p class="cost">$10</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4"><p>Regular deadline<br>
+                    <span class="deadline">Jan. 15, 2015</p></span></div>
+                <div class="col-md-2"><p class="cost">$10</p></div>
+                <div class="col-md-2"><p class="cost">$7</p></div>
+                <div class="col-md-2"><p class="cost">$10</p></div>
+                <div class="col-md-2"><p class="cost">$10</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4"><p>Late deadline<br><span class="deadline">Feb. 15, 2015</span></p></div>
+                <div class="col-md-2"><p class="cost">$10</p></div>
+                <div class="col-md-2"><p class="cost">$7</p></div>
+                <div class="col-md-2"><p class="cost">$10</p></div>
+                <div class="col-md-2"><p class="cost">$10</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4"><p>Super late deadline<br><span class="deadline">March 1, 2015<span></p></div>
+                <div class="col-md-2"><p class="cost">$40</p></div>
+                <div class="col-md-2"><p class="cost">$20</p></div>
+                <div class="col-md-2"><p class="cost">$25</p></div>
+                <div class="col-md-2"><p class="cost">$25</p></div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="about" class="about-section">
+    <!-- Footer -->
+    <section id="footer" class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>about</h1>
-                    <h2>Ivy Film Festival</h2>
-                    <p>The Ivy Film Festival (IFF) is among the largest student-run film festivals in the world and offers students from domestic and foreign universities a venue to exhibit their work.</p>
-                    <p>About us ></p>
-                    <ul class="list-group">
-                        <li class="list-group-item">facebook</li>
-                        <li class="list-group-item">instagram</li>
-                        <li class="list-group-item">twitter</li>
-                        <li class="list-group-item">vimeo</li>
-                    </ul>
-                </div>
+            <div id="footer-desc">
+                <p>The Ivy Film Festival (IFF) is among the largest student-run film festivals
+                    in the world and offers students from domestic and foreign universties
+                    a venue to exhibit their work.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- Schedule Section -->
-    <section id="schedule" class="schedule-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>schedule</h1>
-                </div>
+            <div id="footer-contact">
+                <p>Get in touch with us by sending an email to hello@ivyfilmfestival.com.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="sponsors" class="sponsors-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>sponsors</h1>
-                </div>
+            <div id="footer-media">
+                <p>
+                <a href="#">facebook</a><br/>
+                <a href="#">instagram</a><br/>
+                <a href="#">medium</a><br/>
+                <a href="#">vimeo</a>
+                </p>
             </div>
+            <hr>
+            <p id="copyright">Copyright &#169; Ivy Film Festival.</p>
         </div>
     </section>
 
