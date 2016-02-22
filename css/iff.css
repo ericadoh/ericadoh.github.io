@@ -28,6 +28,7 @@ h2 {
 h3 {
 	font-size: 24px;
 	color: #EC5536;
+	padding-bottom: 10px;
 }
 
 p {
@@ -388,4 +389,34 @@ section {
 	font-size: 26px;
 	font-family: "Basis Grotesque Bold", sans-serif;
 	color: #C2E5C9;
+}
+
+.submissions-section {
+	padding-top: 150px;
+	height: 1000px;
+}
+
+#fees-and-deadlines .row {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#fees-and-deadlines .cost{
+	color: #7EB389;
+}
+
+.deadline {
+	color: #EC5536;
+}
+
+#gate {
+	position: absolute;
+	bottom: -40%;
+	left: 50%;
+	z-index: -1;
+}
+
+.events-section {
+	padding-top: 150px;
+	height: 700px;
 }
