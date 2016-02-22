@@ -108,11 +108,20 @@ a:active {
     padding-top: 0px;
     padding-bottom: 0px;
     line-height: 80px;
-    transition: all 0.5s ease;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #EC5536;
+.navbar-nav > li > a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #EC5536;
+  transition: 0.4s;
+}
+
+.navbar-nav > li > a:hover:after {
+  width: 100%;
 }
 
 @media (max-width: 767px) {
