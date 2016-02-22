@@ -1,3 +1,5 @@
+/* GENERAL */
+
 @font-face {
     font-family: "Kazimir Light";
     src: url("../assets/Kazimir_Light.woff") format('woff');
@@ -13,6 +15,53 @@
     src: url("../assets/basis_grotesque_regular.otf") format("opentype");
 }
 
+h1 {
+	font-size: 43px;
+	font-family: "Basis Grotesque Bold", sans-serif;
+	color: #42744D;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 24px;
+	color: #EC5536;
+}
+
+p {
+	font-family: "Kazimir Light", Georgia, serif;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+    border-bottom: 7px solid #FAD2C1;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+@media (min-width: 767px) {
+	.container {
+		width: 90%;
+	}
+}
+
 @media (min-width: 767px) {
     .news-section, .about-section {
         padding-top: 100px;
@@ -25,6 +74,9 @@
 	font-size: 12px;
 	font-family: "Basis Grotesque Bold", sans-serif;
 	background-color: #fff;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
 }
 
 .navbar img {
@@ -249,7 +301,7 @@ section {
 	border-style: solid;
     border-width: 6px 6px 6px 6px;
     border-color: #42744D;
-    height: 500px;
+    height: 350px;
 }
 
 @media (min-width: 767px) {
@@ -266,22 +318,29 @@ section {
 
 #footer-desc {
 	padding-top: 20px;
-	display: inline-block;
+	display: block;
 	vertical-align: top;
 }
 
 #footer-contact {
-	display: inline-block;
+	display: block;
 	vertical-align: top;
 }
 
-#footer-media {
-	display: inline-block;
+#footer-media p {
+	display: block;
 	vertical-align: top;
 	text-align: left;
+	font-family: "Basis Grotesque Bold", sans-serif;
+	border-bottom: 0px solid #FAD2C1;
+	color: #42744D;
 }
 
 @media (min-width: 767px) {
+
+	.footer {
+		height: 300px;
+	}
 
 	#footer-desc {
 		width: 25%;
@@ -315,54 +374,7 @@ section {
 	}
 }
 
-/* GENERAL */
 
-h1 {
-	font-size: 43px;
-	font-family: "Basis Grotesque Bold", sans-serif;
-	color: #42744D;
-}
-
-h2 {
-	font-size: 32px;
-}
-
-h3 {
-	font-size: 24px;
-	color: #EC5536;
-}
-
-p {
-	font-family: "Kazimir Light", Georgia, serif;
-	font-size: 20px;
-}
-
-a {
-	text-decoration: none;
-    border-bottom: 7px solid #FAD2C1;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-}
-
-@media (min-width: 767px) {
-	.container {
-		width: 90%;
-	}
-}
 
 /*
 @media (max-width: 768px) {
