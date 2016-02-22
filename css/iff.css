@@ -367,9 +367,7 @@ a:active {
 }
 
 @media (min-width: 767px) {
-	.container {
-		width: 90%;
-	}
+
 }
 
 @media (max-width: 767px) {
