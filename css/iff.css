@@ -383,3 +383,9 @@ section {
 		overflow-x: hidden !important;
 	}
 }*/
+
+.year {
+	font-size: 26px;
+	font-family: "Basis Grotesque Bold", sans-serif;
+	color: #C2E5C9;
+}
