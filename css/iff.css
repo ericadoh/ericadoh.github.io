@@ -101,6 +101,10 @@ section {
     .intro-section {
     	margin-top: 80px;
     }
+
+    #intro-desc {
+	    width: 40%;
+	}
 }
 
 .intro-section h1 {
@@ -108,7 +112,6 @@ section {
 }
 
 #intro-desc {
-    width: 400px;
     display: inline-block;
 }
 
