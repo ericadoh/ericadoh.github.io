@@ -140,6 +140,8 @@ a:active {
 
 section {
 	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .intro-section {
@@ -392,7 +394,7 @@ section {
 }
 
 .submissions-section {
-	padding-top: 150px;
+	padding-top: 100px;
 	height: 1000px;
 }
 
@@ -417,6 +419,10 @@ section {
 }
 
 .events-section {
-	padding-top: 150px;
+	padding-top: 100px;
 	height: 700px;
+}
+
+.top-section {
+	padding-top: 100px;
 }
