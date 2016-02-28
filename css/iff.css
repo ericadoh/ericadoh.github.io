@@ -159,6 +159,8 @@ section {
     text-align: center;
     background: #eee;
     background-image: url('../assets/home1.jpg');
+    background-size: cover;
+    background-repeat:   no-repeat;
 }
 
 @media (min-width: 767px) {
@@ -297,12 +299,17 @@ section {
 
 /* SPONSOR IMAGE */
 
+.sponsors-section {
+	text-align: center;
+}
+
 .sponsors-section h1 {
 	padding-bottom: 20px;
 }
 
 .sponsor-image {
-	margin: 10px 10px 10px 10px;
+	margin: 20px 20px 20px 20px;
+	padding-bottom: 20px;
 	width: 300px;
 	display: inline-block;
 }
