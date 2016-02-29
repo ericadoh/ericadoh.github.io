@@ -167,7 +167,7 @@ section {
     padding-top: 150px;
     text-align: center;
     background: #eee;
-    background-image: url('../assets/home1.jpg');
+    background-image: url('../assets/home.jpg');
     background-size: cover;
     background-repeat:   no-repeat;
 }
@@ -188,6 +188,7 @@ section {
 
 #intro-desc {
     display: inline-block;
+    color: #EC5536;
 }
 
 /* LATEST NEWS */
@@ -337,6 +338,7 @@ section {
 /* FOOTER */
 
 .footer {
+	margin-top: 150px;
 	border-style: solid;
     border-width: 6px 6px 6px 6px;
     border-color: #42744D;
