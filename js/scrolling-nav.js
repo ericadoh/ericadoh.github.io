@@ -17,3 +17,13 @@ $(function() {
         event.preventDefault();
     });
 });
+
+$(function() {
+    $('#submit-button').hover(function(){
+        $(this).css("color","#42744D");
+        $(this).css("border-color","#42744D");
+    },function(){
+        $(this).css("color","#EC5536");
+        $(this).css("border-color","#EC5536");
+    });
+});

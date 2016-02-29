@@ -278,8 +278,19 @@ section {
     border-width: 8px 8px 8px 8px;
 	border-color: #EC5536;
 	display: inline-block;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	transition: 0.4s;
+	padding-top: 40px;
+	padding-bottom: 35px;
+}
+
+.submit-section a {
+	text-decoration: none;
+    border-bottom: none;
+    text-underline-position: none;
+    -webkit-text-underline-position: none;
+  	-ms-text-underline-position: below;
+  	text-underline-position: none; 
+  	display: inline-block;line-height: 10px;
 }
 
 @media (min-width: 767px) {
