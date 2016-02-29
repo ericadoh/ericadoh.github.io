@@ -39,7 +39,14 @@ p {
 a {
 	text-decoration: none;
     border-bottom: 7px solid #FAD2C1;
+    text-underline-position: under;
+    -webkit-text-underline-position: under;
+  	-ms-text-underline-position: below;
+  	text-underline-position: under; 
+  	display: inline-block;line-height: 10px;
 }
+
+a:link, a:visited, a:hover, a:active { color: black }
 
 a:link {
     text-decoration: none;
@@ -321,6 +328,9 @@ section {
     border-width: 6px 6px 6px 6px;
     border-color: #42744D;
     height: 350px;
+    background-image: url('../assets/logo_footer.png');
+    background-repeat:   no-repeat;
+    background-position: 40px 20px; 
 }
 
 @media (min-width: 767px) {
