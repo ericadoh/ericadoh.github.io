@@ -1,5 +1,18 @@
 /* GENERAL */
 
+#social-media {
+	display: inline-block;
+	float: right;
+	top: 50%;
+	line-height: 80px;
+	
+}
+
+.social-media-icon {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 @font-face {
     font-family: "Kazimir Light";
     src: url("../assets/Kazimir_Light.woff") format('woff');
