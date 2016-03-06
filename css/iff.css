@@ -89,12 +89,17 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover {
+section a:hover {
 	color: #fff;
     text-decoration: none;
     background-color: #FAD2C1; 
     box-shadow:2px -5px 0 #FAD2C1, -2px -5px 0 #FAD2C1,
     2px 2px 0 #FAD2C1, -2px 2px 0 #FAD2C1;
+}
+
+#submit-button a:hover {
+	color: ;
+	box-shadow:0px -0px 0 #fff, 0px 0 0 #fff,
 }
 
 a:active {
