@@ -32,6 +32,6 @@ $(function() {
 
 var $logo = $('.navbar');
 $(document).scroll(function() {
-    $logo.css({background: $(this).scrollTop() > $( window ).height()? "white":"transparent"});
-    $logo.css({"-webkit-box-shadow": $(this).scrollTop() > $( window ).height()? "0px 2px 3px 0px rgba(0,0,0,0.25)":"none"});
+    $logo.css({background: $(this).scrollTop() > ($( window ).height() - 80)? "white":"transparent"});
+    $logo.css({"-webkit-box-shadow": $(this).scrollTop() > ($( window ).height() - 80)? "0px 2px 3px 0px rgba(0,0,0,0.25)":"none"});
 });
