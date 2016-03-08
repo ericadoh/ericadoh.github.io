@@ -526,5 +526,11 @@ section {
 }
 
 .top-section {
-	padding-top: 100px;
+	padding-top: 50px;
+}
+
+@media (min-width: 767px) {
+	.top-section {
+		padding-top: 100px;
+	}
 }
