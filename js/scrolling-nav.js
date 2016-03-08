@@ -30,7 +30,13 @@ $(function() {
 
 /* */
 
-var $logo = $('.navbar');
+var $logo1 = $('.navbar');
+$(document).scroll(function() {
+    $logo1.css({background: $(this).scrollTop() > 150? "white":"transparent"});
+    $logo1.css({"-webkit-box-shadow": $(this).scrollTop() > 150? "0px 2px 3px 0px rgba(0,0,0,0.25)":"none"});
+});
+
+var $logo = $('#navbar-index');
 $(document).scroll(function() {
     $logo.css({background: $(this).scrollTop() > ($( window ).height() - 80)? "white":"transparent"});
     $logo.css({"-webkit-box-shadow": $(this).scrollTop() > ($( window ).height() - 80)? "0px 2px 3px 0px rgba(0,0,0,0.25)":"none"});
