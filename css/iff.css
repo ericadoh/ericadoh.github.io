@@ -1,5 +1,17 @@
 /* GENERAL */
 
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-1 {
+	background-image: url('../assets/home.jpg');
+}
+
 #about-logo {
 	width: 300px;
 	height: 300px;
