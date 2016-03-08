@@ -1,7 +1,6 @@
 /* GENERAL */
 
 section.module.parallax {
-  height: 600px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -160,10 +159,28 @@ a:active {
 .navbar {
 	font-size: 12px;
 	font-family: "Basis Grotesque Bold", sans-serif;
-	background-color: #fff;
+	transition: 0.4s;
+
+	/*
 	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
 	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
-	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25); */
+}
+
+@media (min-width: 767px) {
+	.navbar {
+		border-width: 0px;
+		background:transparent;
+		background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    	background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar {
+		background-color: #fff;
+	}
 }
 
 .navbar img {
@@ -235,6 +252,8 @@ a:active {
     border-bottom: 0px;
 }
 
+
+
 /* INTRO */
 
 section {
@@ -244,8 +263,7 @@ section {
 }
 
 .intro-section {
-    height: 500px;
-    padding-top: 150px;
+    height: 100vh;
     text-align: center;
     background: #eee;
     background-image: url('../assets/home.jpg');
@@ -253,9 +271,10 @@ section {
 }
 
 @media (min-width: 767px) {
+	/*
     .intro-section {
     	margin-top: 80px;
-    }
+    }*/
 
     #intro-desc {
 	    width: 40%;
@@ -263,6 +282,7 @@ section {
 }
 
 .intro-section h1 {
+	margin-top: 170px;
     color: #EC5536;
 }
 
