@@ -1,5 +1,18 @@
 /* GENERAL */
 
+#satellite-desc {
+	position: relative;
+	width: 60%;
+	display: inline-block;vertical-align: top; /* here */
+}
+#satellite-schools {
+	width: 30%;
+	display: inline-block;vertical-align: top; /* here */
+	padding-top: 40px;
+	float: right;
+	line-height: 28px;
+	color: #EC5536;
+}
 #trailer-link {
 	color: #EC5536;
 	line-height: 20px;
@@ -14,6 +27,7 @@
 	padding-top: 40px;
 	padding-bottom: 30px;
 }
+
 #index-satellite-section {
 	text-align: right;
 	position: relative;
@@ -513,7 +527,10 @@ section {
 
 .sponsor-image {
 	padding-bottom: 80px;
-	display: block;
+	padding-right: 20px;
+	display: inline-block;
+	width: 200px;
+	height: auto;
 }
 
 /* FOOTER */
