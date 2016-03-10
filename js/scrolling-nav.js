@@ -41,3 +41,41 @@ $(document).scroll(function() {
     $logo.css({background: $(this).scrollTop() > ($( window ).height() - 80)? "white":"transparent"});
     $logo.css({"-webkit-box-shadow": $(this).scrollTop() > ($( window ).height() - 80)? "0px 2px 3px 0px rgba(0,0,0,0.25)":"none"});
 });
+
+// video resizing
+$(function() {
+var $hero = $(".intro-section");
+    var $video = $(".bg-video");
+    var videoRatio = 16/9;
+    function resizeBGVideo() {
+        var width = $hero.width();
+        var height = $hero.height();
+
+        var containerRatio = width/height;
+
+        if (containerRatio < videoRatio) {
+            // too narrow
+            $video.css("height", height);
+            $video.css("top", 0);
+
+            var newWidth = height * videoRatio;
+            var wDiff = (newWidth - width) / 2;
+
+            $video.css("width", newWidth);
+            $video.css("left", -wDiff);
+        } else {
+            // too wide
+            $video.css("width", width);
+            $video.css("left", 0);
+
+            var newHeight = width / videoRatio;
+            var hDiff = (newHeight - height) / 2;
+
+            $video.css("height", newHeight);
+            $video.css("top", -hDiff);
+        }
+    }
+
+    resizeBGVideo();
+    $(window).resize(resizeBGVideo);
+});

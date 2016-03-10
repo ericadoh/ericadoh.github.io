@@ -50,7 +50,7 @@ p + p {
 	z-index: 1;
 	margin-top: -180px;
 }
-
+/*
 .intro-section.module.parallax {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -58,9 +58,9 @@ p + p {
   background-size: cover;
 }
 
-.intro-section.module.paralax-1 {
-	background-image: url('../assets/home.jpg');
-}
+.intro-section.module.parallax-1 {
+	/*background-image: url('../assets/home.jpg');*/
+
 
 #about-logo {
 	width: 300px;
@@ -84,21 +84,8 @@ p + p {
 #about-desc {
 	display: inline-block;
 }
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
-}
- 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+
+
 
 #social-media {
 	display: inline-block;
@@ -323,15 +310,37 @@ section {
 	width: 100%;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background-color: #fff;
 }
 
 .intro-section {
-    height: 100vh;
-    text-align: center;
-    background: #eee;
-    background-image: url('../assets/home.jpg');
-    background-size:100%;
+    overflow: auto;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 55% 20%;
+    min-height: 110vh;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.0);
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.bg-video {
+        position: absolute;
+        pointer-events: none;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+
+
+    }
 
 @media (min-width: 767px) {
 	/*
@@ -347,14 +356,18 @@ section {
 	}
 }
 
+#intro-text {
+	text-align: center;
+}
 .intro-section h1 {
-	margin-top: 190px;
     color: #EC5536;
+    text-align: center;
 }
 
 #intro-desc {
     display: inline-block;
     color: #EC5536;
+    text-align: center;
 }
 
 /* LATEST NEWS */
