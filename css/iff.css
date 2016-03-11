@@ -5,6 +5,11 @@
 	width: 60%;
 	display: inline-block;vertical-align: top; /* here */
 }
+
+.about-intro-section {
+	background-color: rgba(0, 0, 0, 0);
+}
+
 #satellite-schools {
 	width: 30%;
 	display: inline-block;vertical-align: top; /* here */
@@ -516,18 +521,20 @@ section {
 }
 
 /* SPONSOR IMAGE */
-
+.sponsors-heading {
+	padding-bottom: 40px;
+}
 .sponsors-section {
 	text-align: center;
 }
 
 .sponsors-section h1 {
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 }
 
 .sponsor-image {
 	padding-bottom: 80px;
-	padding-right: 20px;
+	padding-right: 40px;
 	display: inline-block;
 	width: 200px;
 	height: auto;
