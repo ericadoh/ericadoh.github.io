@@ -63,6 +63,10 @@ p + p {
 	padding-top: 20px;
 }
 
+h3 {
+	margin-bottom: 0px;
+}
+
 #index-satellite-learn {
 	float: right;
 	clear: both;position: relative;
@@ -147,7 +151,6 @@ h2 {
 h3 {
 	font-size: 24px;
 	color: #EC5536;
-	padding-bottom: 10px;
 	font-family: "Basis Grotesque Bold", sans-serif;
 }
 
