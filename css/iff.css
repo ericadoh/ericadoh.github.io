@@ -1,5 +1,14 @@
 /* GENERAL */
 
+.mail-icon-link {
+	
+	border-bottom: 0px solid #EC5536;
+}
+
+.mail-icon {
+	color: #42744D;
+}
+
 #satellite-desc {
 	position: relative;
 	width: 60%;
